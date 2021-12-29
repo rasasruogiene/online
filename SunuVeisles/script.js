@@ -23,7 +23,7 @@ function getBreed(breed) {
             }
         }
         if (xhttp.status === 404) {
-            document.getElementById('gallery').innerHTML = `<p class="error">ERROR<p>`;
+            document.getElementById('gallery').innerHTML = `<p class="error">KLAIDA<p>`;
         }
     }
     var str = breed.toLowerCase().split(' ');
