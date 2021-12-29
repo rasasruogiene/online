@@ -1,0 +1,38 @@
+body {
+  font-family: "Nunito", sans-serif;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.dogs-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 0.3fr);
+  grid-template-rows: repeat(auto-fill, 0vw);
+  grid-gap: 1rem;
+}
+
+.dogs-gallery__img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.error {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
